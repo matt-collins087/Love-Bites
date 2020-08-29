@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container-pink {
+    background-color: #ffb5a7;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-pink h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+
+.border {
+    position: absolute;
+    left: 19%;
+    width: 65%;
+    border-top: 1px solid #fff;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.nav-bar li{
+    width: 300px;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 20px 20px 25px;
+    font-weight: 500;
+}
+
+.nav-bar a {
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+#order-online {
+    text-align: center;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 4px 15px;
+    margin: auto 0;
+}
+
+#order-online:hover {
+    background-color: #ffc3b79a;
+}
+
+.container-jumbo {
+    width: 100%;
+    height: 1050px;
+    background-image: url(https://images.unsplash.com/photo-1595144780677-6d0b5abbd089?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1327&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+.container-rose {
+    height: 270px;
+    background-color: #fcc9c0;
+    text-align: center;
+    font-weight: 400;
+    margin: auto 0;
+}
+
+.container-rose h1 {
+    padding-top: 50px;
+    font-size: 2.5rem;
+}
+
+.container-rose p {
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.where {
+    font-size: 3rem;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #f8edeb;
+}
+
+.container-white {
+    background-color: #f8edeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-white {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.item-white img {
+    height: 550px;
+    padding: 20px 100px;
+}
+
+.follow {
+    padding-top: 100px;
+    background-color: #f9dcc4;
+    text-align: center;
+}
+
+.container-beige {
+    background-color: #f9dcc4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px
+}
+
+.container-beige img {
+    width: 400px;
+    height: 275px;
+    padding: 30px 0;
+}
+
+.container-brown {
+    height: 140px;
+    background-color: #fec89a;
+}
+
+#social {
+    width: 50px;
+    position: relative;
+    left: 50px;
+    top: 35px;
+    padding: 0 10px;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.footer-nav li {
+    font-size: 1.3rem;
+    padding: 0 15px;
+    list-style: none;
+}
+
+.footer-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: rgba(27, 27, 27, 0.836);
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .nav-bar li {
+        width: 300px;
+        font-size: .8rem;
+        padding: 20px 0;
+    }
+
+    #social {
+        width: 30px;
+    }
+
+    .container-brown {
+        height: 100px;
+    }
+
+    .footer-nav li, #order-online{
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container-rose {
+        height: 225px;
+    }
+
+    .container-rose h1 {
+        font-size: 1.5rem;
+    }
+    
+    .container-rose p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #order-online {
+        display: none;
+    }
+
+    #social {
+        width: 25px;
+        padding: 0;
+        left: 10px;
+    }
+
+    .container-brown {
+        height: 70px;
+    }
+
+    .footer-nav ul {
+        margin-right: 5px;
+    }
+
+    .footer-nav li {
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .container-pink h1 {
+        font-size: 3rem;
+    }
+}
